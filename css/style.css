@@ -1,0 +1,167 @@
+header{
+    background-color: #666f88;
+    text-align: center;
+    padding: 20px;
+    font-family: monospace;
+}
+
+body{
+    font-family: monospace;
+    margin: 0px;
+    color: #a3a8b7;
+}
+
+nav{
+    overflow: hidden;
+    background-color: #a3a8b7;
+}
+
+nav a{
+    float: left;
+    display: block;
+    color:#666f88;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+nav a:hover{
+    color: #a3a8b7;
+    background-color: #666f88;
+}
+
+main{
+    padding: 10px 80px;
+    font-family: monospace;
+    text-align: center;
+    color: #666f88;
+}
+
+img{
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    position: relative;
+    top: 1em;
+}
+
+hr{
+    color: #666f88;
+}
+
+#tabla{
+    margin: 20px auto;
+    width: 1000px;
+}
+
+table{
+    background-color: #666f88;
+    color:#a3a8b7 ;
+    font-family: monospace;
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th,td{
+    font-family: monospace;
+    text-align: justify;
+    border: solid 1px black;
+    padding: 20px;
+}
+
+thead {
+    font-family: monospace;
+    background-color: #666f88;
+    color: black;
+    border-bottom: solid 5px;
+}
+
+tr:nth-child(even){
+    background-color: #666f88;
+}
+
+tr:hover td{
+    background-color: #a3a8b7;;
+    color: #666f88;
+
+}
+
+#contenedor {
+    text-align: justify;
+    color: #666f88;
+    font-family: monospace;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 80px;
+  }
+  #contenedor > div {
+    width: 50%;
+  }
+
+footer{
+    color: #a3a8b7;
+    background-color: #666f88;
+    font-family: monospace;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+form{
+    width: 700px;
+    margin: auto;
+    background-color: #666f88;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h2{
+    text-align: center;
+    font-family: monospace;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    font-family: monospace;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 7px;
+    border: none;
+
+}
+
+
+#boton{
+    background: #a3a8b7;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
+
+label {
+    display: block;
+    font: 1rem 'monospace', monospace;
+}
+
+.galeria1{
+    padding: 5px 50px;
+    border: 1px ;
+    float: left;
+}
